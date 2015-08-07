@@ -12,7 +12,11 @@ body {
   width: 100%;
   min-height: 100vh; }
 
-/* line 15, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+/* line 14, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+body {
+  display: none; }
+
+/* line 18, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
 .header {
   width: 100%;
   height: 100vh;
@@ -27,7 +31,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
-  /* line 29, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 32, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   .header h1 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -39,10 +43,10 @@ body {
     letter-spacing: .03em;
     color: #333;
     margin: 0; }
-    /* line 40, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 43, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     .header h1 span {
       font-size: 1.3em; }
-  /* line 44, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 47, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   .header a {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -54,11 +58,11 @@ body {
     color: #333;
     text-decoration: none;
     margin: 0 0.03em 0 0.03em; }
-  /* line 56, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 59, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   .header a:hover {
     text-shadow: 0px 0px 17px #969696; }
 
-/* line 61, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+/* line 64, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
 #resume-content {
   display: none;
   max-width: 900px;
@@ -66,10 +70,10 @@ body {
   margin-right: auto;
   font-family: 'Merriweather', serif;
   letter-spacing: .01em; }
-  /* line 68, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 71, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content h2 {
     margin: 0.5em 0 0 0.3em; }
-  /* line 72, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 75, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content p,
   #resume-content ul {
     margin: 0 0 0 0.9em; }

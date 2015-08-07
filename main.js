@@ -1,5 +1,6 @@
 $(document).ready(function () {
     "use strict";
+    $('body').fadeIn(800);
     $('#name').click(function () {
         $('#resume-content').fadeOut(300);
         $('.header')[0].removeAttribute('style');
