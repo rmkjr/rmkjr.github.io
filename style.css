@@ -58,11 +58,20 @@ body {
   .header a:hover {
     text-shadow: 0px 0px 17px #969696; }
 
-/* line 60, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+/* line 61, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
 #resume-content {
   display: none;
   max-width: 900px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  font-family: 'Merriweather', serif;
+  letter-spacing: .01em; }
+  /* line 68, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  #resume-content h2 {
+    margin: 0.5em 0 0 0.3em; }
+  /* line 72, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  #resume-content p,
+  #resume-content ul {
+    margin: 0 0 0 0.9em; }
 
 /*# sourceMappingURL=style.css.map */
