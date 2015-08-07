@@ -80,9 +80,11 @@ body {
   /* line 79, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content h2 {
     margin: 0.5em 0 0 0.3em; }
-  /* line 83, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
-  #resume-content p,
-  #resume-content ul {
+  /* line 82, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  #resume-content div {
     margin: 0 0 0 0.9em; }
+    /* line 84, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    #resume-content div ul {
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
