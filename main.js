@@ -4,6 +4,6 @@ $(document).ready(function () {
         $('.header')[0].removeAttribute('style');
     });
     $('#resume-link').click(function () {
-        $('.header')[0].style.height = '14vh';
+        $('.header')[0].style.height = '5em';
     });
 });
