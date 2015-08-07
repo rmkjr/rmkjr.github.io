@@ -1,6 +1,5 @@
 $(document).ready(function () {
     "use strict";
-    $('body').fadeIn(800);
     $('#name').click(function () {
         $('#resume-content').fadeOut(300);
         $('.header')[0].removeAttribute('style');
@@ -10,8 +9,6 @@ $(document).ready(function () {
         $('#resume-content').show();
     });
     $('#photo-link').click(function () {
-        $('body').fadeOut(1000, function () {
-            window.location.href = "https://www.flickr.com/photos/richardkovach";
-        });
+        window.location.href = "https://www.flickr.com/photos/richardkovach";
     });
 });
