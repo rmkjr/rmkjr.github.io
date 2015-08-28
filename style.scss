@@ -66,6 +66,7 @@ body {
     margin-right: auto;
     font-family: 'Merriweather', serif;
     letter-spacing: .01em;
+    padding-bottom: 1em;
     .contact-info {
         text-align: center;
         margin-top: .9em;
@@ -78,11 +79,38 @@ body {
     }
     h2 {
         margin: .5em 0 0 .3em;
+        -webkit-column-span: all;
     }
     div {
         margin: 0 0 0 .9em;
+        span {
+            font-size: 1.1em;
+        }
         ul {
             margin: 0;
+            padding-left: 1.5em;
+        }
+        ul ul {
+            margin: 0;
+            padding-left: 1.03em;
+        }
+    }
+    .skills {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-fill: auto;
+        -moz-column-fill: auto;
+        column-fill: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #resume-content {
+        .skills {
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
         }
     }
 }

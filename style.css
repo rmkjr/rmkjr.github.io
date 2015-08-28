@@ -66,25 +66,50 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-family: 'Merriweather', serif;
-  letter-spacing: .01em; }
-  /* line 69, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  letter-spacing: .01em;
+  padding-bottom: 1em; }
+  /* line 70, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content .contact-info {
     text-align: center;
     margin-top: .9em; }
-    /* line 72, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 73, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content .contact-info a {
       text-decoration: none;
       color: #333;
       font-family: 'Merriweather', serif;
       font-weight: 300; }
-  /* line 79, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 80, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content h2 {
-    margin: 0.5em 0 0 0.3em; }
-  /* line 82, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    margin: 0.5em 0 0 0.3em;
+    -webkit-column-span: all; }
+  /* line 84, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content div {
     margin: 0 0 0 0.9em; }
-    /* line 84, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 86, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    #resume-content div span {
+      font-size: 1.1em; }
+    /* line 89, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content div ul {
-      margin: 0; }
+      margin: 0;
+      padding-left: 1.5em; }
+    /* line 93, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    #resume-content div ul ul {
+      margin: 0;
+      padding-left: 1.03em; }
+  /* line 98, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  #resume-content .skills {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto; }
+
+@media (max-width: 600px) {
+  /* line 110, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  #resume-content .skills {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2; } }
 
 /*# sourceMappingURL=style.css.map */
