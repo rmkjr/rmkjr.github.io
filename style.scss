@@ -65,11 +65,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Merriweather', serif;
+    color: #333;
     letter-spacing: .01em;
     padding-bottom: 1em;
     .contact-info {
         text-align: center;
         margin-top: .9em;
+        margin-left: auto;
+        margin-right: auto;
         a {
             text-decoration: none;
             color: #333;
@@ -77,22 +80,31 @@ body {
             font-weight: 300;
         }
     }
+    .mantra {
+        text-align: center;
+        margin-top: .6em;
+        margin-left: auto;
+        margin-right: auto;
+    }
     h2 {
-        margin: .5em 0 0 .3em;
+        text-align: center;
+        margin: .5em .5em .5em .5em;
+        padding: .3em 0 .3em 0em;
         -webkit-column-span: all;
+    background-color: #ccc;
     }
     div {
-        margin: 0 0 0 .9em;
+        margin: 0 1.3em 0 1.3em;
         span {
             font-size: 1.1em;
         }
         ul {
             margin: 0;
-            padding-left: 1.5em;
+            padding-left: 1.6em;
         }
         ul ul {
             margin: 0;
-            padding-left: 1.03em;
+            padding-left: 1em;
         }
     }
     .skills {
