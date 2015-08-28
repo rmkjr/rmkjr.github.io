@@ -44,7 +44,7 @@ body {
     .header h1 span {
       font-size: 1.3em; }
   /* line 45, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
-  .header a {
+  .header div {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -57,11 +57,12 @@ body {
     margin: 0 0.03em 0 0.03em;
     padding: 2em 0 2em 0; }
   /* line 58, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
-  .header a:hover {
+  .header div:hover {
     text-shadow: 0px 0px 14px #969696;
-    color: black; }
+    color: black;
+    cursor: pointer; }
 
-/* line 64, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+/* line 65, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
 #resume-content {
   display: none;
   max-width: 900px;
@@ -71,46 +72,46 @@ body {
   color: #333;
   letter-spacing: .01em;
   padding-bottom: 1em; }
-  /* line 73, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 74, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content .contact-info {
     text-align: center;
     margin-top: .9em;
     margin-left: auto;
     margin-right: auto; }
-    /* line 78, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 79, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content .contact-info a {
       text-decoration: none;
       color: #333;
       font-family: 'Merriweather', serif;
       font-weight: 300; }
-  /* line 85, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 86, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content .mantra {
     text-align: center;
     margin-top: .6em;
     margin-left: auto;
     margin-right: auto; }
-  /* line 91, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 92, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content h2 {
     text-align: center;
     margin: 0.5em 0.5em 0.5em 0.5em;
     padding: 0.3em 0 0.3em 0em;
     -webkit-column-span: all;
     background-color: #ccc; }
-  /* line 98, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 99, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content div {
     margin: 0 1.3em 0 1.3em; }
-    /* line 100, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 101, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content div span {
       font-size: 1.1em; }
-    /* line 103, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 104, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content div ul {
       margin: 0;
       padding-left: 1.6em; }
-    /* line 107, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+    /* line 108, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
     #resume-content div ul ul {
       margin: 0;
       padding-left: 1em; }
-  /* line 112, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 113, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content .skills {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -120,7 +121,7 @@ body {
     column-fill: auto; }
 
 @media (max-width: 600px) {
-  /* line 124, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
+  /* line 125, /Users/richardmkovachjr/Documents/rmkjr.github.io/style.scss */
   #resume-content .skills {
     -webkit-column-count: 2;
     -moz-column-count: 2;

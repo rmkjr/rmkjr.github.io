@@ -42,7 +42,7 @@ body {
             font-size: 1.3em;
         }
     }
-    a {
+    div {
         -webkit-box-flex: 1;
         -webkit-flex: 1;
         -ms-flex: 1;
@@ -55,9 +55,10 @@ body {
         margin: 0 .03em 0 .03em;
         padding: 2em 0 2em 0;
     }
-    a:hover {
+    div:hover {
         text-shadow: 0px 0px 14px rgba(150, 150, 150, 1);
         color: black;
+        cursor: pointer;
     }
 }
 
