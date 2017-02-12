@@ -9,6 +9,6 @@ $(document).ready(function () {
         $('#resume-content').show();
     });
     $('#photo-link').click(function () {
-        window.location.href = "https://www.flickr.com/photos/richardkovach";
+        window.location.href = "https://500px.com/richardmkovachjr";
     });
 });
